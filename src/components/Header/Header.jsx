@@ -1,8 +1,8 @@
-const Header = () => {
+const Header = ({pageTitle}) => {
     
   return (
     <>
-      <h1>Min REACT Side</h1>
+      <h1>{pageTitle}</h1>
     </>
   )
 }

@@ -1,11 +1,11 @@
 
 
-const Content = () => {
+const Content = ({paragraphOne,paragraphTwo,paragraphThree}) => {
   return (
     <>
-      <p>Jeg øver mig på REACT</p>
-      <p>Jeg syntes det er godt at arbejde i</p>
-      <p>Jeg glæder mig til at lære mere</p>
+      <p>{paragraphOne}</p>
+      <p>{paragraphTwo}</p>
+      <p>{paragraphThree}</p>
     </>
   )
 }

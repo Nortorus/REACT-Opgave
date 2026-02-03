@@ -6,9 +6,21 @@ import Header from "./components/Header/Header"
 function App() {
   return (
     <>
-      <Header></Header>
-      <Content></Content>
-      <Footer></Footer>
+      <Header pageTitle = "Min REACT side"></Header>
+
+      <Content
+      paragraphOne = "Jeg laver en REACT side"
+      paragraphTwo = "Det fungerer meget godt"
+      paragraphThree = "Jeg har tilføjet props">
+
+      </Content>
+
+      <Footer 
+      mail = "mads.sp@hotmail.com"
+      phoneNumber = "61349320"
+      address = "Tornhøjsparken 226">
+
+      </Footer>
     </>
   )
 }
