@@ -1,9 +1,9 @@
-
+import "./GridContainer.css"
 
 const GridContainer = ({children}) => {
   return (
     <>
-      {children}
+      <div className="grid-container">{children}</div>
     </>
   )
 }
