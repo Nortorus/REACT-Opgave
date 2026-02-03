@@ -1,0 +1,10 @@
+.content {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+
+.content-text {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: black;
+}

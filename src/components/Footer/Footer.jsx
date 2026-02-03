@@ -1,13 +1,16 @@
+import "./Footer.css"
 
 
 const Footer = ({mail,phoneNumber,address}) => {
   return (
     <>
-      <ul>
-        <li>{mail}</li>
-        <li>{phoneNumber}</li>
-        <li>{address}</li>
+    <footer className="footer">
+      <ul className="footer-list">
+        <li className="footer-item">{mail}</li>
+        <li className="footer-item">{phoneNumber}</li>
+        <li className="footer-item">{address}</li>
       </ul>
+    </footer>
     </>
   )
 }

@@ -1,8 +1,12 @@
+import "./Header.css"
+
 const Header = ({pageTitle}) => {
     
   return (
     <>
-      <h1>{pageTitle}</h1>
+      <header className="header">
+        <h1 className="header-title">{pageTitle}</h1>
+      </header>
     </>
   )
 }

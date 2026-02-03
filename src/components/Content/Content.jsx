@@ -1,11 +1,13 @@
+import "./Content.css"
 
-
-const Content = ({paragraphOne,paragraphTwo,paragraphThree}) => {
+const Content = ({paragraphOne, paragraphTwo, paragraphThree}) => {
   return (
     <>
-      <p>{paragraphOne}</p>
-      <p>{paragraphTwo}</p>
-      <p>{paragraphThree}</p>
+      <main className="content">
+      <p className="content-text">{paragraphOne}</p>
+      <p className="content-text">{paragraphTwo}</p>
+      <p className="content-text">{paragraphThree}</p>
+    </main>
     </>
   )
 }
